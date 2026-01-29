@@ -1,9 +1,11 @@
 import "./App.css";
+import Button from "./components/Button";
 
-function App(categorias) {
+function App() {
   return (
     <>
-      <div>
+    <Button nome = {"Teste de nome"}/>
+      {/* <div>
         <div className="title">
           <h1>Produção de Roteiro</h1>
         </div>
@@ -19,7 +21,7 @@ function App(categorias) {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
     </>
   );
 }
