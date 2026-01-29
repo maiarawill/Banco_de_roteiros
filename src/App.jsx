@@ -1,6 +1,9 @@
 import "./App.css";
 import Button from "./components/Button";
 
+import buscarCategorias from "./service/categorias";
+
+const categorias = await buscarCategorias();
 
 function App({categorias}) {
   return (
